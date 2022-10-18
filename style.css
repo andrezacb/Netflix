@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('imagem/fundo.png');
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header img{
+    height: 45px;
+    width: 167px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.login h2{
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.login{
+    padding: 60px;
+    width: 450px;
+    height: 550px;
+    margin-left: 36%;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.login input{
+    background: rgb(58, 56, 56);
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border: 1px solid  rgb(58, 56, 56);
+}
+
+.login button{
+   padding: 10px;
+   height: 50px;
+   width: 100%;
+   background: red;
+   font-size: 13pt;
+   font-weight: bold;
+   border: 1px solid red;
+   color: white;
+   font-family:Arial, Helvetica, sans-serif ;
+}
+
+.suporte {
+    color: rgb(169, 160, 160);
+    font-size: 12pt;
+    margin-top: 5px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.suporte input {
+    width: 15px;
+    height: 15px;
+}
+
+#help{
+margin-left: 20%;
+color: rgb(169, 160, 160);
+font-size: 10pt;
+}
+
+ span{
+    display:flex;
+    align-items: center;
+}
+#check{
+    vertical-align: top;
+    top: -1px;  
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#assine{
+      font-weight: bold;
+      color: white;
+      font-size: 12pt;
+}
+a{
+   text-decoration: none;
+}
+
+input:hover{
+    background: rgb(153, 152, 152);
+}
+button:hover{
+    background: darkred;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/logo2.png" type="image/x-icon">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagem/logot.png" alt="">
+    </header>
+   
+    <form>
+        <div class="login">
+            <h2>Entrar</h2> <br>
+            <input type="email" name="email" id="email"placeholder="Email ou numero de telefone" required> <br>
+            <input type="password" name="senha" id="senha" placeholder="Senha" required><br>
+            <button type="button" id="botão" onclick="entrar()">Entrar</button><br>
+        <div class="suporte">
+            <div class="remember">
+                <input type="checkbox" name="check" id="check"> 
+                <label style="margin-left: 3px;"for="check">Lembre-se de mim</label><a href="#" id="help">Precisa de ajuda?</a> <br>
+                <div id="facebook"><span><img src="imagem/facebook1.png" alt=""><a href="#"></a>Conectar com o Facebook</span></div> <br>
+                <p>Novo por aqui? <a id="assine" href="#">Assine agora.</a></p> <br>
+                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais</a></p>
+            </div>
+        </div>
+    </form>
+    <script>
+    function entrar(){
+        window.location.href="concluida.html"
+    }
+    </script>
+</body>
+</html>
